@@ -1,0 +1,27 @@
+# requirements.txt
+# Pan-Cancer PCA — Python environment
+# Install with:   pip install -r requirements.txt
+
+# Core data handling 
+pandas>=2.0
+numpy>=1.24
+
+#Machine learning / dimensionality reduction 
+scikit-learn>=1.3
+
+#Static plotting 
+matplotlib>=3.7
+seaborn>=0.13
+
+#Interactive 3D plotting 
+plotly>=5.18
+
+#VS Code notebook / interactive-window support
+jupyter>=1.0
+ipykernel>=6.25
+nbformat>=5.9
+ipywidgets>=8.1
+
+#Optional
+# kaleido>=0.2.1     # static PNG/SVG export of plotly figures (fig.write_image)
+# umap-learn>=0.5    # later for a non-linear comparison to PCA
